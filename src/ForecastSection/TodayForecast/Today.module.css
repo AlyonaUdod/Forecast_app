@@ -1,0 +1,66 @@
+.wrapper {
+    display: flex;
+    margin: 2rem auto 1rem;
+    flex-flow: row wrap;
+}
+
+.leftSide {
+    flex-basis: 40%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.leftSide img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.rightSide ul {
+    list-style-type: none;
+}
+
+.rightSide li {
+    margin: .5rem 0;
+    font-size: 1.4rem;
+}
+
+.rightSide {
+    flex-basis: 60%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightSide h3 {
+    font-size: 1.7rem;
+    text-align: right;
+}
+
+.cityName {
+    font-size: 2.1rem;
+}
+
+.condition {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+}
+
+.chart {
+    width: 90%;
+    margin: 1rem auto 0;
+}
+
+.Temp {
+    font-size: 2.3rem;
+    font-weight: 700;
+}

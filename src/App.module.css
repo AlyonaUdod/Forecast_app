@@ -1,0 +1,17 @@
+.App {
+  margin: auto;
+  max-width: 1200px;
+  width: 80%;
+  padding-top: 4vh;
+  display: flex;
+}
+
+.seachSection {
+  flex-basis: 30%;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.forecastSection {
+  flex-basis: 70%;
+}

@@ -1,0 +1,32 @@
+.seachForm {
+    margin: 10px auto;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.formGroup {
+    display: flex;
+    width: 80%;
+    padding-top: 10px;
+}
+
+.seachFormInput {
+    flex-basis: 80%;
+}
+
+.seachFormButton {
+    flex-basis: 20%;
+}
+
+.validError {
+    position: absolute;
+    z-index: 1000;
+    top: -1rem;
+    color: red;
+}
+
+.requestError {
+    position: absolute;
+    top: 1rem;
+}

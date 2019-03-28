@@ -1,0 +1,14 @@
+.ForecastWrapper {
+    /* max-width: 64rem; */
+    margin: 1rem auto;
+    width: 90%;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 15px grey;
+    /* min-height: 400px; */
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+}

@@ -1,0 +1,8 @@
+.city {
+    text-transform: capitalize;
+    font-size: 1.4rem;
+}
+
+.city:hover {
+    font-size: 1.7rem;
+}
